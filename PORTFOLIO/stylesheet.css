@@ -1,0 +1,36 @@
+body{
+    background-color: #b7c994;
+    color: black;
+    font-family: "Unica One", sans-serif;;
+    font-style: bold;
+}
+header{
+    background-color: #b7c945;
+    color: black;
+    font-family: "Unica One", sans-serif;
+    font-size: 2rem;
+}
+header>nav{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+header>nav>a{color:rgb(116, 32, 139);
+} 
+header>nav>a:hover{
+    color: #fff;
+}
+.quote{
+    background-color: #b7c945;
+    color: rgb(116, 32, 139);
+    font-family: "Unica One", sans-serif;
+    font-size: 4rem;
+    text-align: center;
+    border: 1px solid #b7c945;
+}
+.homepage>img{
+    display: flex;
+    justify-content: center;
+    margin-left: 2.25rem;
+    margin-right: 2.25rem;
+}
