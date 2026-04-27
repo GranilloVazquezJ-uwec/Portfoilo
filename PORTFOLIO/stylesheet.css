@@ -23,7 +23,7 @@ header>nav>a:hover{
 .quote{
     background-color: #b7c945;
     color: rgb(116, 32, 139);
-    font-family: "Unica One", sans-serif;
+      font-family: "Special Elite", system-ui;
     font-size: 4rem;
     text-align: center;
     border: 1px solid #b7c945;
@@ -33,4 +33,11 @@ header>nav>a:hover{
     justify-content: center;
     margin-left: 2.25rem;
     margin-right: 2.25rem;
+}
+.projects>h2{
+    background-color: #b7c945;
+    color: rgb(116, 32, 139);
+    font-family: "Unica One", sans-serif;
+    font-size: 2rem;
+    text-align: center;
 }
