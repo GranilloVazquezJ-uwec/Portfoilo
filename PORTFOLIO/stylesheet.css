@@ -38,6 +38,18 @@ header>nav>a:hover{
     background-color: #b7c945;
     color: rgb(116, 32, 139);
     font-family: "Unica One", sans-serif;
-    font-size: 2rem;
+    font-size: 3rem;
     text-align: center;
+}
+.projects{
+    display: grid;
+    justify-content: center;
+}
+.art{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 2rem;
+}
+.art figure{
+    justify-self: center;
 }
