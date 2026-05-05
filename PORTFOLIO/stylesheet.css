@@ -160,6 +160,81 @@ header>img{
     margin-left: 1.5rem;
     margin-right: 1.5rem;
 }
+.header{
+    font-family:"Unica One", sans-serif;
+    color: white;
+    background-color: #990074;
+}
+.header>div>h2{
+    text-align: center;
+    font-size: 3rem;
+    padding-top: .5rem;
+    padding-bottom: .75rem;
+    text-decoration: underline;
+}
+.experience{
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+    gap: .5rem;
+    text-align: flex;
+    margin-right: 2rem;
+    padding: 1.5rem 1.5rem;
+    border: 1.5rem solid #990074;
+}
+.server{
+    background-color: #990074;
+    grid-row: 1/2;
+    border: 1.5rem solid #990074;
+}
+.server>h3{
+    text-decoration: underline;
+    text-align: center;
+}
+.coordinator{
+    background-color: #990074;
+    grid-row: 1/2;
+    border: 1.5rem solid #990074;
+}
+.coordinator>h3{
+    text-decoration: underline;
+    text-align: center;
+}
+.ecvolunteer{
+    background-color: #990074;
+    grid-column: 1/2;
+    border: 1.5rem solid #990074;
+}
+.ecvolunteer>h3{
+    text-decoration: underline;
+    text-align: center;
+}
+.selmavolunteer{
+    background-color: #990074;
+    grid-column: 2/3;
+    border: 1.5rem solid #990074;
+}
+.selmavolunteer>h3{
+    text-decoration: underline;
+    text-align: center;
+}
+.puertorico{
+    background-color: #990074;
+    grid-row: 2/3;
+    border: 1.5rem solid #990074;
+}
+.puertorico>h3{
+    text-decoration: underline;
+    text-align: center;
+}
+.argentina{
+    background-color: #990074;
+    grid-row: 2/3;
+    border: 1.5rem solid #990074;
+}
+.argentina>h3{
+    text-decoration: underline;
+    text-align: center;
+}
 .overlay {
   position: fixed;
   top: 0;
@@ -179,7 +254,7 @@ header>img{
 .popup {
   margin: 70px auto;
   padding: 20px;
-  background: #fff;
+  background: #990074;
   border-radius: 5px;
   width: 50%;
   position: relative;
