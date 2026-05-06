@@ -250,6 +250,10 @@ main{
     border: 1.5rem solid #990074;
     justify-content: center;
 }
+.contact{
+    padding-top: 20rem;
+    padding-bottom: 10rem;
+}
 .overlay {
   position: fixed;
   top: 0;
