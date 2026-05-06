@@ -235,6 +235,21 @@ header>img{
     text-decoration: underline;
     text-align: center;
 }
+.project{
+    text-align: center;
+    padding-top: 10rem;
+    font-size: 10rem;
+}
+main{
+    display: grid;
+    grid-template-columns: 2 1fr;
+    gap: .5rem;
+    text-align: flex;
+    margin-right: 2rem;
+    padding: 1.5rem 1.5rem;
+    border: 1.5rem solid #990074;
+    justify-content: center;
+}
 .overlay {
   position: fixed;
   top: 0;
@@ -251,7 +266,7 @@ header>img{
   visibility: visible;
   opacity: 1;
 }
-.popup {
+.popup1 {
   margin: 70px auto;
   padding: 20px;
   background: #990074;
@@ -260,7 +275,7 @@ header>img{
   position: relative;
   transition: all 5s ease-in-out;
 }
-.popup .close {
+.popup1 .close {
   position: absolute;
   top: 20px;
   right: 30px;
@@ -270,6 +285,72 @@ header>img{
   text-decoration: none;
   color: #333;
 }
-.popup .close:hover {
+.popup1 .close:hover {
+  color: #06D85F;
+}
+.popup2 {
+  margin: 70px auto;
+  padding: 20px;
+  background: #990074;
+  border-radius: 5px;
+  width: 50%;
+  position: relative;
+  transition: all 5s ease-in-out;
+}
+.popup2 .close {
+  position: absolute;
+  top: 20px;
+  right: 30px;
+  transition: all 200ms;
+  font-size: 30px;
+  font-weight: bold;
+  text-decoration: none;
+  color: #333;
+}
+.popup2 .close:hover {
+  color: #06D85F;
+}
+.popup3 {
+  margin: 70px auto;
+  padding: 20px;
+  background: #990074;
+  border-radius: 5px;
+  width: 50%;
+  position: relative;
+  transition: all 5s ease-in-out;
+}
+.popup3 .close {
+  position: absolute;
+  top: 20px;
+  right: 30px;
+  transition: all 200ms;
+  font-size: 30px;
+  font-weight: bold;
+  text-decoration: none;
+  color: #333;
+}
+.popup3 .close:hover {
+  color: #06D85F;
+}
+.popup4 {
+  margin: 70px auto;
+  padding: 20px;
+  background: #990074;
+  border-radius: 5px;
+  width: 50%;
+  position: relative;
+  transition: all 5s ease-in-out;
+}
+.popup4  .close {
+  position: absolute;
+  top: 20px;
+  right: 30px;
+  transition: all 200ms;
+  font-size: 30px;
+  font-weight: bold;
+  text-decoration: none;
+  color: #333;
+}
+.popup4 .close:hover {
   color: #06D85F;
 }
