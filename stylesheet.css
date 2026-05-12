@@ -272,6 +272,9 @@ main{
   opacity: 0;
   z-index: 999;
 }
+.all{
+    display: flex;
+}
 .overlay:target {
   visibility: visible;
   opacity: 1;
@@ -363,4 +366,14 @@ main{
 }
 .popup4 .close:hover {
   color: #06D85F;
+}
+textarea{
+    display: block;
+}
+form{
+    background-color: #06D85F;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    align-items: center;
 }
